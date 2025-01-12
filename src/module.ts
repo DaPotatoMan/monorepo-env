@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { addTypeTemplate, defineNuxtModule } from '@nuxt/kit'
 import { type EnvGeneratorConfig, generateENV, getNuxtRuntimeEnvMap, getRootDir } from './logic'
 
@@ -48,11 +49,6 @@ export default defineNuxtModule<Config>({
       getContents: () => env.dtsContent,
     })
 
-    // Define envDir at start so other modules can use it
-    nuxt.options.vite.envDir = env.outputDir
-
-    nuxt.hook('vite:extendConfig', async (options) => {
-      options.envDir = env.outputDir
-    })
+    Object.assign(process.env, env.data)
   },
 })
