@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.5...v0.0.6)
+
+### 🚀 Enhancements
+
+- Improve env extending logic ([4eb3d44](https://github.com/dapotatoman/monorepo-env/commit/4eb3d44))
+
+### ❤️ Contributors
+
+- Fahad ([@DaPotatoMan](http://github.com/DaPotatoMan))
+
 ## v0.0.5
 
 [compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.4...v0.0.5)
