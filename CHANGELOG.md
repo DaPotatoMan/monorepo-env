@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.6...v0.0.7)
+
+### 🚀 Enhancements
+
+- Remove .env file generation Not needed as env content is written process.env ([646b1a7](https://github.com/dapotatoman/monorepo-env/commit/646b1a7))
+
+### 🩹 Fixes
+
+- **vite:** Don't return config from `config` hook - Creates conflict with vitest browser instances ([55dd65c](https://github.com/dapotatoman/monorepo-env/commit/55dd65c))
+
+### ❤️ Contributors
+
+- Fahad ([@DaPotatoMan](http://github.com/DaPotatoMan))
+
 ## v0.0.6
 
 [compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.5...v0.0.6)
