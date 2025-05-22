@@ -9,9 +9,7 @@ export default function (config: EnvGeneratorConfig = {}): Plugin {
 
     config(viteConfig, { mode }) {
       const env = generateENV(mode, config)
-
       Object.assign(process.env, env.data)
-      return viteConfig
     },
   }
 }
