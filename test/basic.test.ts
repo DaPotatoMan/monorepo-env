@@ -9,8 +9,8 @@ describe('ssr', async () => {
 
   it('renders the index page', async () => {
     const html = await $fetch('/api/get-env')
-    expect(html).toContain('VITE_APP_MODE')
-    expect(html).toContain('VITE_APP_IS_LOCAL')
+    expect(html).toContain('VITE_APP_MODE = local-dev')
+    expect(html).toContain('VITE_APP_IS_LOCAL = true')
 
     const runtimeEnv = await $fetch('/api/get-runtime-env')
     expect(runtimeEnv).toMatchSnapshot()

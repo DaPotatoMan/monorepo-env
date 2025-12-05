@@ -1,2 +1,8 @@
 packages:
   - playground
+
+minimumReleaseAge: 4320 # 3 Days
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
