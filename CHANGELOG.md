@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.8
+
+[compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.7...v0.0.8)
+
+### 🩹 Fixes
+
+- Lint issues ([9907040](https://github.com/dapotatoman/monorepo-env/commit/9907040))
+- Build issue ([dcadece](https://github.com/dapotatoman/monorepo-env/commit/dcadece))
+
+### 🏡 Chore
+
+- Update deps ([e80be4d](https://github.com/dapotatoman/monorepo-env/commit/e80be4d))
+
+### ❤️ Contributors
+
+- Fahad ([@DaPotatoMan](https://github.com/DaPotatoMan))
+
 ## v0.0.7
 
 [compare changes](https://github.com/dapotatoman/monorepo-env/compare/v0.0.6...v0.0.7)
