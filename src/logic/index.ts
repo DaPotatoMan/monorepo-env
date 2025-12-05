@@ -1,10 +1,11 @@
+import type { EnvMap, NuxtRuntimeEnvMap } from './types'
 import fs from 'node:fs'
 import process from 'node:process'
-import { loadEnv } from 'vite'
 import { monorepoRootSync } from 'monorepo-root'
 import { camelCase } from 'scule'
+import { loadEnv } from 'vite'
+import { createViteTypes } from './types'
 import { resolvePath } from './utils'
-import { type EnvMap, type NuxtRuntimeEnvMap, createViteTypes } from './types'
 
 export interface EnvGeneratorConfig {
   /**
@@ -85,7 +86,7 @@ export function getNuxtRuntimeEnvMap(baseENV: EnvMap) {
 
     const isPublic = key.startsWith('NUXT_PUBLIC')
     const name = camelCase(
-      key.replace(/NUXT_PUBLIC_|NUXT_/gm, ''),
+      key.replace(/NUXT_PUBLIC_|NUXT_/g, ''),
       { normalize: true },
     )
 

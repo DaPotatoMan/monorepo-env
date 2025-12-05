@@ -1,6 +1,7 @@
-import process from 'node:process'
 import type { Plugin } from 'vite'
-import { type EnvGeneratorConfig, generateENV } from './logic'
+import type { EnvGeneratorConfig } from './logic'
+import process from 'node:process'
+import { generateENV } from './logic'
 
 export default function (config: EnvGeneratorConfig = {}): Plugin {
   return {

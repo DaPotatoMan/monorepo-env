@@ -57,8 +57,8 @@ pnpm add -D monorepo-env
 Setup `vite.config.ts`
 
 ```ts
-import { defineConfig } from 'vite'
 import MonorepoENV from 'monorepo-env/vite'
+import { defineConfig } from 'vite'
 
 defineConfig({
   plugins: [

@@ -1,6 +1,7 @@
+import type { EnvGeneratorConfig } from './logic'
 import process from 'node:process'
 import { addTypeTemplate, defineNuxtModule } from '@nuxt/kit'
-import { type EnvGeneratorConfig, generateENV, getNuxtRuntimeEnvMap, getRootDir } from './logic'
+import { generateENV, getNuxtRuntimeEnvMap, getRootDir } from './logic'
 
 interface Config extends Omit<EnvGeneratorConfig, 'dts'> {
   /** Expose env variables to nuxt runtime */
