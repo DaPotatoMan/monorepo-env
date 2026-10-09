@@ -2,7 +2,7 @@
   "name": "monorepo-env",
   "type": "module",
   "version": "0.0.8",
-  "packageManager": "pnpm@10.24.0+sha512.01ff8ae71b4419903b65c60fb2dc9d34cf8bb6e06d03bde112ef38f7a34d6904c424ba66bea5cdcf12890230bf39f9580473140ed9c946fef328b6e5238a345a",
+  "packageManager": "pnpm@12.10.1+sha512.ba40a37eb1a370d60fea8c4cf1d364c13bcccef518e98ad2bcee954f539d38da37458e58261a3fa55e06523450ea0ffff9f497b135be41f2c15c1642bacace6c",
   "description": "Automatically merge/share env files in a monorepo",
   "author": "Fahadul Islam @dapotatoman",
   "license": "MIT",
